@@ -56,6 +56,12 @@ func Carousel(arr []int, shift int) ([]int) {
 	if shift == 0 {
 		return arr
 	}
-
 	return append(arr[l-shift:], arr[:l-shift]...)
+
+	/*for shift > 0 {
+		arr = append([]int{arr[l-1]}, arr[0:l-1]...)
+		shift--
+	}
+
+	return arr*/
 }
