@@ -35,6 +35,7 @@ func Solution(n int) (l int) {
 	return
 }
 
+// пока сделаны на память, жду презентацию
 // количество уникальный чисел в слайсе
 func NumberUniques(arr []int) int {
 	m := make(map[int]bool)
